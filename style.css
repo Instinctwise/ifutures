@@ -352,9 +352,13 @@ border-radius: 5px;
                 .quote4{
                     margin-left: 0rem;
                 }
+                .summary{
+                    width:90% ;
+                    margin-left: 2rem;
+                }
                 .ri-menu-fill, .ri-close-circle-fill{
                     display: block;
-                    cursor: pointer;
+                    cursor: pointer;60%
                     font-size: 20px;
                 }
                 .navi li{
