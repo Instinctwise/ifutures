@@ -1,0 +1,352 @@
+/* DESKTOP VIEW SECTION */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins'
+}
+
+body{
+    background-color: #b1c4e7;
+}
+
+a {
+    text-decoration: none;
+}
+/* NAVIGATION BUTTON SECTION */
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: #fff;
+    
+}
+.navLinks {
+    font-weight:900 ;
+    font-size: 1.2rem;
+}
+
+.navi {
+    display: flex;
+    list-style: none;
+    column-gap: 2rem;
+    
+}
+.navi a{
+    color: #3c19af;
+   
+}
+/* IFUTURE SECTION */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1b1170ec;
+    padding: 2rem 8rem;
+    color: #fff;
+}
+
+.contain{
+    text-align: start;
+}
+.content{
+    font-size: 60px;
+}
+.content2{
+    font-size: 30px;
+   
+}
+.para{
+    width: 80%;
+    font-size: 1.2rem;
+    margin: 40px 0px 40px 0px;
+}
+.link{
+    padding: 10px 1rem;
+    border: 1px solid #fff;
+    color: #fff;
+    
+}
+.pad{
+    margin-bottom: 20px;
+}
+.pad a{
+    color: #fff;
+}
+.segment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 4rem ;
+    width: 70%;
+    margin: 2rem auto;
+}
+/* ABOUT COMPANY SECTION */
+.textcon{
+    margin-left: 3rem;
+}
+.contain2{
+    color: blue;
+    margin-bottom: 2rem;
+}
+.para2{
+    margin: 40px 0 20px 0;
+}
+
+.textcon .readmorebtn{
+    padding: 10px 28px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+}
+/* BLUE AND PINK DOUBLE SECTION */
+.segment2 {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+
+}
+.buttons{
+ background-color: rgb(46, 46, 224); 
+ width: 50%;
+ padding: 150px;
+ color:#fff;
+ margin-bottom: 0.5rem;
+ text-align: center;
+}
+
+.pad2{
+    font-size: 60px;
+}
+.pad3{
+    font-size:25px ;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+.pad4{
+    border-radius: 30px;
+    background-color: #e7d8d8ec;
+    padding: 18px 50px;
+   font-weight: bold;
+   /* margin-left: 5rem; */
+ ;
+}
+.buttons2{
+    background-color: #d61f6b;
+    width: 50%;
+    padding: 150px;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.click{
+    font-size: 60px;
+}
+.click2{
+    font-size: 25px;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+.click3{
+    border-radius: 30px;
+    background-color:#e7d8d8ec ;
+    padding: 18px 50px;
+    font-weight: bold;
+    /* margin-left: 4.5rem; */
+}
+.commentsect{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+/* CUSTOMER COMMENT SECTION */
+.quote{
+    text-align: center;
+    color: blue;
+    margin-top: 2rem;
+}
+.quote1{
+background-color: #fff;
+width: 100%;
+padding: 1rem;
+text-align: left;
+border-radius: 5px;
+}
+.namer{
+    padding: 1rem 0rem;
+    color: rgb(54, 49, 49);
+}
+.quote2{
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem ;
+    text-align: left;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    }
+    .namer2{
+        padding: 1rem 0rem;
+        color: rgb(54, 49, 49);
+    }
+    .quote3{
+        background-color: #fff;
+        width: 100%;
+        padding: 1rem ;
+        text-align: left;
+        margin-left: 0.5rem;
+        border-radius: 5px;
+    }
+        .namer3{
+            padding: 1rem 0rem;
+            color: rgb(54, 49, 49);
+        }
+        .quote4{
+            background-color: #fff;
+            width: 100%;
+            padding: 1rem;
+            text-align: left;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+            border-radius: 5px;
+        }
+        .namer4{
+            padding: 1rem 0rem;
+            color: rgb(54, 49, 49);
+        }
+        /* BUTTOM SECTION */
+        .summary{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            background-color: rgb(59, 53, 53);
+            padding-top: 4rem;
+        }
+        .summary p{
+           text-align: center;
+        }
+        .template{
+            margin: 4rem auto 1rem 2rem
+        }
+        /* MEDIA QUERRY SECTION */
+        @media screen and (max-width:1380px) {
+            .container{
+                padding: 3rem;
+            }
+
+            .segment{
+                width: 80%;
+            }
+
+            .buttons, .buttons2{
+                width: 50%;
+                padding: 80px;
+                margin-bottom: 2rem;
+               }
+
+               .click, .pad2{
+                font-size: 40px;
+               }
+
+               .click2, .pad3{
+                   font-size: 22px;
+               }
+        }
+
+        @media screen and (max-width:992px) {
+            .container, .segment{
+                flex-direction: column;
+            }
+
+            .imgContainer{
+                margin-top: 2rem;
+            }
+            .click, .pad2{
+                font-size: 30px;
+               }
+            
+        }
+
+        @media screen and (max-width: 768px){
+            .container{
+                display: block;
+                text-align: center;
+                padding: 3rem 4rem;
+            }
+            .imgContainer{
+                display: none;
+            }
+         .segment{
+            flex-direction: column;
+            width: 90%;
+            padding: 2rem;
+         }   
+         .textcon{
+            margin-left: 0rem;
+        }
+        .segment2 {
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+        
+        }
+        .buttons{ 
+         width: 100%;
+         padding: 40px;
+         margin-bottom: 0;
+        }
+        
+        .pad2{
+            font-size: 25px;
+            /* margin-left: 11.5rem; */
+        }
+        .pad3{
+            font-size:20px ;
+            padding: 10px 0;
+        }
+        .pad4{
+            padding: 8px 20px;
+        }
+        .buttons2{
+            width: 100%;
+            padding: 40px;
+        }
+        .click{
+            font-size: 25px;
+            /* margin-left: 11.5rem; */
+        }
+        .click2{
+            font-size: 20px;
+            padding: 1px 0px;
+            /* margin: 0px 0px 25px 11.5rem; */
+        }
+        .click3{
+            border-radius: 20px;
+            padding: 8px 20px;
+
+        }
+        
+        .quote{
+            text-align: center;
+            color: blue;
+            padding-bottom: 15px;
+        }
+        .commentsect{
+            flex-direction: column;
+            width: 90%;
+        }
+            .quote3{
+                margin-top: 0.5rem;
+                margin-left: 0;
+            }
+                .quote4{
+                    margin-left: 0rem;
+                }
+                
+            }
