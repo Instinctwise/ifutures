@@ -10,6 +10,7 @@
 }
 body{
     background-color: #b1c4e7;
+    overflow-x: hidden;
 }
 
 a {
