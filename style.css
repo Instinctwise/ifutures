@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Poppins'
 }
-
+.ri-menu-fill , .ri-close-circle-fill{
+    display: none;
+}
 body{
     background-color: #b1c4e7;
 }
@@ -19,6 +21,7 @@ a {
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 4rem;
     background-color: #fff;
     
@@ -348,5 +351,27 @@ border-radius: 5px;
                 .quote4{
                     margin-left: 0rem;
                 }
-                
+                .ri-menu-fill, .ri-close-circle-fill{
+                    display: block;
+                    cursor: pointer;
+                    font-size: 20px;
+                }
+                .navi li{
+                    padding: 1rem 0;
+                }
+                .navi{
+                    position: absolute;
+                    background-color: #3c19af;
+                    flex-direction: column;
+                    width: 200px;
+                    padding: 1rem;
+                    top: 0;
+                    right: -200px;
+                    height: 100vh;
+                    color: #fff;
+                    transition: .5s;
+                }
+                .navi a{
+                    color: #fff;
+                }
             }
